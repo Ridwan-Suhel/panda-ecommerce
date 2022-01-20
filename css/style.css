@@ -1,0 +1,74 @@
+.slider-bg {
+  background: #fceae8;
+  border-radius: 10px;
+}
+.cat-item img {
+  width: 100px;
+}
+.cat1 {
+  background-color: orange;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.cat2 {
+  background-color: orchid;
+}
+.cat3 {
+  background-color: blue;
+}
+.card-body {
+  padding-bottom: 0;
+}
+.shoes-area .card-footer {
+  background: transparent;
+  border: none;
+  padding-bottom: 25px;
+  margin-top: 0;
+}
+.card .h5 {
+  margin-bottom: 0;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgrey;
+}
+.bag-area .card-footer {
+  background: transparent;
+  border: none;
+  padding-bottom: 25px;
+  margin-top: 15px;
+}
+.subs-area h6 {
+  color: gray;
+}
+.subs-area .row {
+  background: #fceae8;
+  height: 300px;
+  border-radius: 10px;
+}
+footer p {
+  font-size: 14px;
+}
+.site-btn {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .hero-slider .col-md-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .hero-slider .col-md-5 img {
+    width: 75% !important;
+  }
+}
