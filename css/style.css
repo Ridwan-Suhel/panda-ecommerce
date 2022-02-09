@@ -1,12 +1,16 @@
 .slider-bg {
   background: #fceae8;
   border-radius: 10px;
+  background: #eb9980;
 }
 .cat-item img {
   width: 100px;
 }
 .cat1 {
   background-color: orange;
+}
+.carousel-item {
+  z-index: 999;
 }
 .cat1,
 .cat2,
@@ -60,6 +64,9 @@ footer p {
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
+}
+.disabled-button {
+  opacity: 0.5;
 }
 @media only screen and (max-width: 767px) {
   .hero-slider .col-md-5 {
